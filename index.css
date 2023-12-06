@@ -1,0 +1,318 @@
+/*Общий порядок*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.ul, li {
+    display: block;
+    padding: 0;
+    margin: 0
+    /*    преобразуем нав менб в блок*/
+}
+
+#bg-color {
+    background-color: #fbfbfc;
+    color: black;
+}
+
+/*делаем общие параметры для заголовков*/
+.h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: black
+}
+
+.h3 {
+    font-weight: 400
+}
+
+.h2 {
+    text-align: center
+}
+
+
+.title {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.title__main {
+    font-size: 32px;
+}
+
+.title__text {
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto
+}
+
+.yellow {
+    color: #fcdb00
+}
+
+
+/*Первый экран*/
+.header {
+    background-color: #fcdb00;
+    color: black;
+    padding-top: 60px;
+    /*делаем отступ сверху*/
+    padding-bottom: 100px;
+}
+
+.menu {
+    margin-top: 8px;
+}
+
+.menu__item {
+    margin: 0 57px
+}
+
+.menu__item a {
+    font-weight: 700;
+    color: black;
+    font-size: 22px;
+}
+
+.menu__item.item a {
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+}
+
+.link__down a {
+    color: black;
+    font-size: 52px
+}
+
+
+#cur a {
+    font-weight: 700;
+    color: blue;
+    font-size: 22px;
+}
+
+.offer {
+    margin-top: 117px;
+}
+
+.offer__title {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.offer__intro {
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+.offer__text {
+    font-size: 16px;
+    margin-top: 15px;
+    /*color: #5555;*/
+    width: 400px;
+}
+
+.icons__items {
+    margin-right: 30px;
+}
+
+.icons__items a {
+    color: black;
+    font-size: 50px;
+    transition: all 0.3s ease;
+}
+
+.icons__items a:hover {
+    /*text-decoration: none;*/
+    color: dimgray;
+}
+
+.ipad {
+    display: block;
+    margin: 60px auto 0;
+
+}
+
+/*вторая часть*/
+.feature__icon {
+    font-size: 50px;
+    margin-right: 37px;
+    color: black;
+}
+
+.feature__text {
+    color: dimgray;
+}
+
+.feature {
+    margin-bottom: 65px;
+}
+
+/*Третья часть футер*/
+.touch {
+    background-color: black;
+    color: white;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__input {
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    width: 580px;
+    padding: 14px 0;
+    margin-right: 21px;
+    border: 0;
+    padding-left: 23px;;
+    outline: none;
+
+}
+
+.form__btn {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: #fcdb00;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 130px;
+    border: 0;
+    padding: 14px 0;
+    cursor: pointer;
+    /*outline: none;*/
+
+}
+
+/*футер*/
+.footer {
+    background-color: black;
+    padding: 50px 0 94px;
+}
+
+.credits {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    width: 180px;
+    margin: 0 auto;
+}
+
+
+/*Для страницы контакты*/
+.contacts__icon {
+    height: 75px;
+    width: 50px;
+    margin-right: 0px;
+    color: black;
+}
+
+.map {
+    display: block;
+    margin: 60px auto 0;
+
+}
+
+.footer__pages {
+    background-color: black;
+    padding: 50px 0 50px;
+}
+
+.disclaimer {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+/*страница оплаты и заказов*/
+
+
+/*apple страница*/
+.devs {
+    margin: 60px auto 40px;
+}
+
+.feature__block.phones {
+    margin-left: 60px;
+}
+
+.touch.phones {
+    background-color: white;
+    color: black;
+}
+
+.form__btn.phones {
+    background-color: white;
+    border: solid;
+    width: 70%;
+    margin-bottom: 100px;
+}
+
+
+/*задний фон для контактов*/
+.background {
+    background-image: url("https://sun9-75.userapi.com/impg/a7g-QHwuoA5d0TSYL_jZ2fUxpBUAh0BFQLUcuw/_L-ScGpQvmg.jpg?size=2270x652&quality=95&sign=cf715bdef7f960a62eac052c5672ee5a&type=album");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
+/*медиазапросы*/
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .link__down {
+        display: block;
+        text-align: center;
+    }
+
+    .offer {
+        text-align: center;
+    }
+
+    .offer__text {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: auto;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+
+    .form__input {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .form__btn {
+        width: 100%;
+    }
+
+    .title__text {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ipad {
+        width: 100%;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+}

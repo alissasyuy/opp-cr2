@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--выше для создания версий под различные устройства -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400&family=Roboto:wght@400;500;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel='stylesheet' href="index.css">
+</head>
+<body>
+<header id='bg-color' id='header' class='header'>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-lg-3'>
+                <a href="index.html"><img src='logo.png' class="logo animated fadeInUp"></a>
+            </div>
+            <div class='col-lg-5 m-auto'>
+                <!--                с помощью m-lg-auto заполняем кол-во колонок до 12, ибо 5+3!=12-->
+                <nav>
+                    <ul class='menu animated fadeInUp d-flex justify-content-center'>
+                        <!--                        выше сделали флекс контейнер и оцентровали шапку-->
+                        <li class='menu__item'><a href='oplata.html'>Оплата</a></li>
+                        <li id='cur' class='menu__item'><a href='contacts.html'>Контакты</a></li>
+                        <li class='menu__item'><a href='delivery.html'>Доставка</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-lg-3'>
+                <ul>
+                    <li class='link__down'>
+                        <a href="#features">
+                            <i class="fa fa-arrow-down animated fadeInUp" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class='col-lg-5 m-auto'>
+                <!--                с помощью m-lg-auto заполняем кол-во колонок до 12, ибо 5+3!=12-->
+                <nav>
+                    <ul class='menu animated fadeInUp d-flex justify-content-center'>
+                        <!--                        выше сделали флекс контейнер и оцентровали шапку-->
+                        <li class='menu__item item'><a href='apple.html'>Apple</a></li>
+                        <li class='menu__item item'><a href='android.html'>Android</a></li>
+                        <li class='menu__item item'><a href='computers.html'>Computers</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class='offer animated fadeInLeft'>
+                    <div class='offer__title'>
+                        <h1>Контакты</h1>
+                    </div>
+                    <div class='offer__intro'>
+                        <p>Связаться с нами вы можете следующими способами:</p>
+                    </div>
+                    <div class='contacts d-flex'>
+                        <ul class='icons'>
+                            <li class='icons__items'>
+                                <a href="#">
+                                    <a href="tel: +7 (915) 314-17-36"><i class="fa fa-phone contacts__icon"
+                                                                         aria-hidden="true"></i></a>
+                                </a>
+                            </li>
+                        </ul>
+                        <p class='offer__text'>В нерабочее время не беру звонки: <a href="tel: +7 (915) 314-17-36">+7
+                            (915) 314-17-36</a></p>
+                    </div>
+                    <div class='contacts d-flex'>
+                        <ul class='icons'>
+                            <li class='icons__items'>
+
+                                <a href="https://mail.ru/"><i class="fa fa-envelope-open-o contacts__icon"
+                                                              aria-hidden="true"></i></a>
+
+                            </li>
+                        </ul>
+                        <p class='offer__text'>Почта для обратной связи: asyuy@edu.hse.ru. Для деловых предложений</p>
+                    </div>
+                    <div class='contacts d-flex'>
+                        <ul class='icons'>
+                            <li class='icons__items'>
+                                <a href="https://yandex.ru/maps/org/dom_kolotushkina/89067343641/?ll=91.427296%2C53.680157&z=11"><i
+                                        class="fa fa-location-arrow contacts__icon" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                        <p class='offer__text'>Мы находимся по адресу: Москва, улица Пушкина, дом Колатушкина</p>
+                    </div>
+                    <div class='contacts d-flex'>
+                        <ul class='icons'>
+                            <li class='icons__items'>
+
+                                <a href="https://vk.com/int117he"><i class="fa fa-vk contacts__icon"
+                                                                     aria-hidden="true"></i></a>
+
+                            </li>
+                        </ul>
+                        <p class='offer__text'>Вк горе трейдера. <a href="https://vk.com/int117he">Тык</a>. Ну или можно
+                            тык на иконку</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 m-lg-auto">
+                <div class='map' style="position:relative;overflow:hidden;"><a
+                        href="https://yandex.ru/maps/org/dom_kolotushkina/89067343641/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Дом Колотушкина</a><a
+                        href="https://yandex.ru/maps/1095/abakan/category/electric_and_gas_powered_tools/184107571/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Электро- и бензоинструмент в
+                    Абакане</a><a
+                        href="https://yandex.ru/maps/1095/abakan/category/hardware_store/184107753/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:28px;">Строительный магазин в Абакане</a>
+                    <iframe src="https://yandex.ru/map-widget/v1/org/dom_kolotushkina/89067343641/?ll=91.427296%2C53.680157&z=11"
+                            width="560" height="400" frameborder="1" allowfullscreen="true"
+                            style="position:relative;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id='features' class='features background'>
+    <div class='container mb-4-5'>
+        <div class='row'>
+            <div class="col-lg-12">
+                <div class="title">
+                    <h2 class='title__main'>
+                        Введите ваши данные для обратной связи
+                    </h2>
+                    <p class='title__text'>
+                        Мы вам возможно перезвоним. Номера оператор выбирает с помощью рандомайзера </p>
+                </div>
+            </div>
+        </div>
+        <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+            <p>Для поисковика: <input name="q" type="Text" value="search"></p>
+            <p>Имя: <input name="name" size=20 type="Text" value="Евпатий"></p>
+            <p>Фамилия: <input name="last_name" size=20 type="Text" value="Коловрат"></p>
+            <p>Телефон: <input name="telephone" size=20 type="Text" placeholder="88005553535"></p>
+            <p>Дата запроса: <input name="user_date" type="date"></p>
+
+            <p>Нужна ли вам услуга по доставке:
+                <select name="delivery">
+                    <OPTION value="Да">Да!</OPTION>
+                    <OPTION value="Да">Да, хочу доставку!</OPTION>
+                </select>
+            </p>
+            <p>Город доставки:
+                <input form__btn checked name="city" type="Radio" value="Moscow">Москва
+                <input checked name="city" type="Radio" value="Tatarstan">Татарстан
+                <input checked name="city" type="Radio" value="Urupinsk">Урюпинск
+
+            </p>
+            <p> Дополнительная информация:
+                <br>
+                <TEXTAREA class='message w-50' cols=80 name="textarea" rows=4
+                          placeholder="Укажите вашу претензию или вообще в чем там вопрос а???"></TEXTAREA>
+            </p>
+            <input name="rand-num" type="number" value=1> Для исследовательских целей: впишите рандомное число от 1 до
+            10. Тык <a href="https://pikabu.ru/story/opros_bolee_8500_studentov_vyibrat_chislo_ot_1_do_10_6403952"
+                       target="_blank">сюда
+            для статистики.</a>
+            <br><br>
+            <input name="Reset" type="Reset" value="Обновить">
+            <input name="submit" type="Submit" value="Отправить">
+            </p>
+        </form>
+    </div>
+</section>
+<section id='footer' class='footer__pages'>
+    <div class='row'>
+        <div class="col-lg-5 m-auto">
+            <div class='disclaimer'>
+                <p>Роспотребнадзор предупреждает о частых подделках. С нами вы можете не беспокоиться о том что
+                    попадется не оригинальная продукция</p>
+            </div>
+        </div>
+        <div class="col-lg-5 ">
+            <div class='disclaimer'>
+                <p>Ведь вы заведомо в курсе что покупаете подделку</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id='origin' class='origin'>
+    <div class='container '>
+        <div class='row'>
+            <div class="col-lg-10 m-lg-auto">
+                <p class='feature__text'>Магазин Алисы Сюй (с) 2023. Все права как обычно незащищены.
+                    Интернет-магазин поддержанной электроники</p>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
